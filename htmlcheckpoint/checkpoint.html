@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travail</a></li>
+            <li><a href="#resume">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis actuellement étudiante en première année d'informatique à l'Université Constantine 2, où je poursuis ma passion pour la technologie et l'informatique. Mon parcours académique m'offre une base solide dans divers domaines de l'informatique.</p>
+        <p>En parallèle, je consacre également du temps à l'apprentissage du développement web, explorant les langages tels que HTML, CSS et JavaScript. Mon objectif est de maîtriser ces technologies pour créer des expériences web interactives et engageantes.</p>
+    </section>
+
+   
+    <section id="work">
+        <h2>Mon Travail</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="https://www.webfx.com/wp-content/uploads/2023/10/simple-website-designs-5-shopify.png" alt="Web Development Project 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://a4h6c5c5.rocketcdn.me/wp-content/uploads/2019/05/WPT-Fitness-Fitness-Website-Example.jpg" alt="Web Development Project 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="https://images.websitebuilderexpert.com/wp-content/uploads/2018/01/10102943/Sakara-1.png?width=880&height=400&fit=crop" alt="Web Development Project 3">
+            </div>
+            <div>
+                <video width="640" height="360" controls>
+                    <source src="video.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+    </section>
+
+   
+    <section id="resume">
+        <h2>Mon CV</h2>
+            <h3>Éducation</h3>
+            <ul>
+                <li><strong>Université Constantine 2</strong> - Première année d'informatique</li>
+                
+            </ul>
+        
+            <h3>Compétences</h3>
+            <ul>
+                <li><strong>Langages de programmation :</strong> HTML, CSS, JavaScript</li>
+                <li><strong>Outils :</strong> Visual Studio Code, Git</li>
+                
+            </ul>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="/submit_form" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+  
+    <footer>
+        <p>2024 Mon Portfolio.</p>
+    </footer>
+
+</body>
+</html>
